@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Encriptador de Texto/encrypt.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="file:///C:/Users/SAMSUMG/Downloads/v4fp6ofe.png" alt="Header Image">  
+            <div class="text"><h1>Encriptador & Desencriptador</h1></div>
+            <div class="description-text">
+                <p>Bienvenido a la página encriptadora y desencriptadora. Aquí puedes encriptar y 
+                desencriptar tus mensajes de forma segura y fácil. Ingresa tu código y déjanos 
+                proteger tu información.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="shadow-block">
+            <div class="container">
+                <h2>Escriba aquí</h2>               
+                <input type="text" class="input" id="inputText" />
+                <div>
+                    <button class="button" onclick="encrypt()">Encriptar</button>
+                    <button class="button" onclick="decrypt()">Desencriptar</button>
+                    
+                </div>                   
+                <h2>Resultado</h2>
+                <div class="highlight-box">
+                    <p id="outputText"></p>
+                </div>
+                <button onclick="copyToClipboard()" class="button">Copiar</button>
+            </div>  
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js'></script>
+            <script src="Encriptador de Texto/script.js"></script>
+        </div>    
+    </main>    
+    <footer class="footer">
+        <p>&copy; Todos los derechos reservados - 2023</p>
+        <p>Desarrollado por Gisel Caicedo</p>
+    </footer>
+</body>
+</html>
