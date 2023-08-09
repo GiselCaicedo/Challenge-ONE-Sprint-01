@@ -3,6 +3,7 @@ html, body {
     font-family: 'Montserrat', sans-serif;  
 }
 
+
 .image-container {
     position: relative;
 }
@@ -16,6 +17,7 @@ html, body {
     background-repeat: no-repeat;
 }
 
+
 .text {
     position: absolute;
     top: 50%;
@@ -27,7 +29,7 @@ html, body {
 }
 
 .description-text {
-    margin-top: 15px;
+    margin-top: 3%;
     position: absolute;
     top: 70%;
     left: 50%;
